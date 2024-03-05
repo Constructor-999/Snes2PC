@@ -85,42 +85,7 @@ void getControllerData(void){
     + String(buttons[4]) + String(buttons[5])
     + String(buttons[6]) + String(buttons[7])
     + String(buttons[8]) + String(buttons[9])
-    + String(buttons[10]) + String(buttons[11])); if(buttons[0] == 0){
-        Serial.println("B");
-    }
-    if(buttons[1] == 0){
-        Serial.println("Y");
-    }
-    if(buttons[2] == 0){
-        Serial.println("SELECT");
-    }
-    if(buttons[3] == 0){
-        Serial.println("START");
-    }
-    if(buttons[4] == 0){
-        Serial.println("UP");
-    }
-    if(buttons[5] == 0){
-        Serial.println("DOWN");
-    }
-    if(buttons[6] == 0){
-        Serial.println("LEFT");
-    }
-    if(buttons[7] == 0){
-        Serial.println("RIGHT");
-    }
-    if(buttons[8] == 0){
-        Serial.println("A");
-    }
-    if(buttons[9] == 0){
-        Serial.println("X");
-    }
-    if(buttons[10] == 0){
-        Serial.println("LB");
-    }
-    if(buttons[11] == 0){
-        Serial.println("RB");
-    }
+    + String(buttons[10]) + String(buttons[11]));
     togglebinds(gui);
   }
   spambinds(gui);
