@@ -30,7 +30,7 @@ And run it with:
 
 ### 3D
 You can find all the 3d files in the 3D folder
-the Raspberry Pico and the Neopixel led are glued down with hot glue
+the Raspberry Pico and the Neopixel led are placed using hot glue
 
 ### Credits
 This project was heavily inspired by :
