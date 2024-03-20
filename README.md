@@ -1,9 +1,9 @@
-#Snes2PC
+# Snes2PC
 Small Arduino Sketch to convert a Super Nintendo (SNES) Controller to an HID peripheral using a Raspberrry Pi Pico board.
 
 For now we added the mincraft keybinds
 
-##Hardware setup
+## Hardware setup
 SNES Controller Pinout
 <pre>
  -----------------\
@@ -21,17 +21,17 @@ SNES Controller Pinout
  
  And you need to connect an RGB led (WS2812b) to the pin 10 of the Pico
 
-##Snes viewer
+## Snes viewer
 The app runs on tkinter and Pillow, cou can install them with:
 `pip install tk Pillow`
 
 And run it with:
 `python3 ./SnesViewer/app.py`
 
-###3D
+### 3D
 You can find all the 3d files in the 3D folder
 the Raspberry Pico and the Neopixel led are glued down with hot glue
 
-###Credits
+### Credits
 This project was heavily inspired by :
 https://github.com/burks10/Arduino-SNES-Controller
