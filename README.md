@@ -28,7 +28,9 @@ The app runs on tkinter and Pillow, cou can install them with:
 And run it with:
 `python3 ./SnesViewer/app.py`
 
-
+###3D
+You can find all the 3d files in the 3D folder
+the Raspberry Pico and the Neopixel led are glued down with hot glue
 
 ###Credits
 This project was heavily inspired by :
