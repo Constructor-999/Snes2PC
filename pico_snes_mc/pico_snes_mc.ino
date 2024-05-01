@@ -115,7 +115,7 @@ void togglebinds(int guiMode){
     } else {
       Keyboard.release(KEY_LEFT_SHIFT);
     }
-    if(buttons[8] == 0 and buttons[11] != 0){ //A (preventing from glitching with the oher command)
+    if(buttons[8] == 0 and buttons[11] != 0 buttons[10] != 0){ //A (preventing from glitching with the oher command)
       Mouse.press(MOUSE_RIGHT);
     } else {
       Mouse.release(MOUSE_RIGHT);
@@ -136,9 +136,15 @@ void togglebinds(int guiMode){
     if (buttons[11] == 0 and buttons[8] == 0){ //RB + A
       inventoryLastGuiID = playingGuiID;
       gui = inventoryGuiID;
+      Mouse.press(MOUSE_RIGHT);
+    } else {
+      Mouse.release(MOUSE_RIGHT);
     }
     if (buttons[10] == 0 and buttons[8] == 0){ //LB + A
       gui = boatGuiID;
+      Mouse.press(MOUSE_RIGHT);
+    } else {
+      Mouse.release(MOUSE_RIGHT);
     }
   }
   if (guiMode == inventoryGuiID) {
@@ -208,7 +214,6 @@ void togglebinds(int guiMode){
       //Changing gui mode
       inventoryLastGuiID = boatGuiID;
       gui = inventoryGuiID;
-      Keyboard.release('e');
     }
     if(buttons[10] == 0 and buttons[8] != 0){ //LB (preventing from glitching with the oher command)
       Mouse.move(0, 0, 1);
@@ -219,6 +224,9 @@ void togglebinds(int guiMode){
     if (buttons[11] == 0 and buttons[8] == 0){ //RB + A
       inventoryLastGuiID = boatGuiID;
       gui = inventoryGuiID;
+      Mouse.press(MOUSE_RIGHT);
+    } else {
+      Mouse.release(MOUSE_RIGHT);
     }
     if(buttons[6] == 0){ //LEFT
       Keyboard.press('a');
