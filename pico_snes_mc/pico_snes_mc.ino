@@ -146,6 +146,11 @@ void togglebinds(int guiMode){
     } else {
       Mouse.release(MOUSE_RIGHT);
     }
+    if(buttons[2] == 0 and buttons[3] == 0){ //SELECT + START
+      Keyboard.press(KEY_F3);
+    } else {
+      Keyboard.release(KEY_F3);
+    }
   }
   if (guiMode == inventoryGuiID) {
     if(buttons[0] == 0){ //B 
