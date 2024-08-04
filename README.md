@@ -23,10 +23,10 @@ SNES Controller Pinout
 
 ## Snes viewer
 The app runs on tkinter and Pillow, cou can install them with:
-`pip install tk Pillow`
+`pip install tk Pillow` or `pip3 install tk Pillow`
 
 And run it with:
-`python3 ./SnesViewer/app.py`
+`python ./SnesViewer/app.py` or `python3 ./SnesViewer/app.py`
 
 ### 3D
 You can find all the 3d files in the 3D folder
